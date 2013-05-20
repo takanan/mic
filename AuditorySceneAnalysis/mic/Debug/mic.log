@@ -1,0 +1,92 @@
+﻿2013/05/20 22:01:01 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\mic\mic.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\mic.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\fftviewer.h(86): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\fftviewer.h(86): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\fftviewer.h(87): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\fftviewer.h(87): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(35): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(44): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(51): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(59): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(59): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(60): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(60): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(64): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(64): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(64): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(65): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(65): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(66): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(66): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(70): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(72): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(72): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waveviewer.hpp(82): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\waverecoder.hpp(112): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\monoimage.hpp(125): warning C4800: 'unsigned char' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\frameratechecker.h(42): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\frameratechecker.h(41): クラス テンプレート のメンバー関数 'const char *aqua::FrameRateChecker<interval>::getFrameRateString(void)' のコンパイル中
+                 with
+                 [
+                     interval=1000
+                 ]
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\main.cpp(42) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::FrameRateChecker<interval>' の参照を確認してください
+                 with
+                 [
+                     interval=1000
+                 ]
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\soundbuffer.hpp(133): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\soundbuffer.hpp(132): クラス テンプレート のメンバー関数 'void aqua::SoundBuffer<T>::read(T *,int)' のコンパイル中
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\fftanalyzer.hpp(66) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::SoundBuffer<T>' の参照を確認してください
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(164): warning C4800: 'PaError' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(161): クラス テンプレート のメンバー関数 'bool aqua::AudioCapture<T>::isActive(void)' のコンパイル中
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\main.cpp(40) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::AudioCapture<T>' の参照を確認してください
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(91): warning C4715: 'aqua::AudioCapture<float>::init' : 値を返さないコントロール パスがあります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(152): warning C4715: 'aqua::AudioCapture<float>::start' : 値を返さないコントロール パスがあります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(166): warning C4715: 'aqua::AudioCapture<float>::isActive' : 値を返さないコントロール パスがあります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(118): warning C4715: 'aqua::AudioCapture<float>::release' : 値を返さないコントロール パスがあります。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Debug\mic.exe" /INCREMENTAL /NOLOGO sdl.lib sdlmain.lib opengl32.lib glu32.lib portaudio_x86d.lib "libboost_system-vc100-mt-gd-1_53.lib" "libboost_thread-vc100-mt-gd-1_53.lib" "libboost_date_time-vc100-mt-gd-1_53.lib" "libboost_chrono-vc100-mt-gd-1_53.lib" "libfftw3f-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Debug\mic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Debug\mic.lib" /MACHINE:X86 /PROFILE Debug\mic.exe.embed.manifest.res
+         Debug\AudioCapture.obj
+         Debug\main.obj
+     1>LINK : warning LNK4075: /INCREMENTAL は /PROFILE の指定によって無視されます。
+     1>AudioCapture.obj : warning LNK4075: /EDITANDCONTINUE は /OPT:REF の指定によって無視されます。
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mic.exe.embed.manifest" /manifest Debug\mic.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         mic.vcxproj -> C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Debug\mic.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\mic.unsuccessfulbuild" を削除しています。
+         "Debug\mic.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\mic\mic.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.02

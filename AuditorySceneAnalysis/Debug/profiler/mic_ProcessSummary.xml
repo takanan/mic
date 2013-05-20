@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PerformanceReport>
+  <ProcessSummary>
+    <Process UPID="0" PID="2872" ProcessName="notepad.exe" ProcBeginTime="0" ProcEndTime="18407131358" LifeTime="18407131358" />
+  </ProcessSummary>
+</PerformanceReport>

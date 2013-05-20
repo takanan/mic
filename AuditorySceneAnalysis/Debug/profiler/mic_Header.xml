@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PerformanceReport>
+  <HeaderSummary>
+    <Header HeaderName="カーネル ETL ファイル" HeaderCategory="ETW" HeaderValue="" />
+    <Header HeaderName="アプリケーション ETL ファイル" HeaderCategory="ETW" HeaderValue="" />
+    <Header HeaderName="ETL ファイル署名" HeaderCategory="ETW" HeaderValue="00000000-0000-0000-0000-000000000000" />
+    <Header HeaderName="DHP 発生" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="未サポート CLR" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="有効期間" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="終了した UMS アプリケーション" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="正常終了" HeaderCategory="コレクション" HeaderValue="True" />
+    <Header HeaderName="JScript" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="TIP" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="マネージ" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="Is Resource Contention" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="Is Concurrency" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="サンプリング" HeaderCategory="コレクション" HeaderValue="True" />
+    <Header HeaderName="Visualizer" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="64 ビット" HeaderCategory="コレクション" HeaderValue="True" />
+    <Header HeaderName="割り当て" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="インストルメンテーション" HeaderCategory="コレクション" HeaderValue="False" />
+    <Header HeaderName="CPU アーキテクチャ" HeaderCategory="コンピューター情報" HeaderValue="不明" />
+    <Header HeaderName="CPU ファミリ" HeaderCategory="コンピューター情報" HeaderValue="6" />
+    <Header HeaderName="CPU モデル" HeaderCategory="コンピューター情報" HeaderValue="10" />
+    <Header HeaderName="コンピューター名" HeaderCategory="コンピューター情報" HeaderValue="TAWAKE" />
+    <Header HeaderName="CPU 数" HeaderCategory="コンピューター情報" HeaderValue="4" />
+    <Header HeaderName="CPU の種類" HeaderCategory="コンピューター情報" HeaderValue="Intel" />
+    <Header HeaderName="オペレーティング システムのマイナー バージョン" HeaderCategory="コンピューター情報" HeaderValue="1" />
+    <Header HeaderName="オペレーティング システムのビルド番号" HeaderCategory="コンピューター情報" HeaderValue="7601" />
+    <Header HeaderName="クロック周波数" HeaderCategory="コンピューター情報" HeaderValue="2494" />
+    <Header HeaderName="CPU ステップ" HeaderCategory="コンピューター情報" HeaderValue="9" />
+    <Header HeaderName="オペレーティング システムのメジャー バージョン" HeaderCategory="コンピューター情報" HeaderValue="6" />
+    <Header HeaderName="サンプル (中止)" HeaderCategory="サンプリング" HeaderValue="0" />
+    <Header HeaderName="サンプル (別のアプリケーション)" HeaderCategory="サンプリング" HeaderValue="135" />
+    <Header HeaderName="サンプル (合計)" HeaderCategory="サンプリング" HeaderValue="285" />
+    <Header HeaderName="サンプリング間隔" HeaderCategory="サンプリング" HeaderValue="10000000" />
+    <Header HeaderName="パフォーマンス カウンター サンプリング" HeaderCategory="サンプリング" HeaderValue="False" />
+    <Header HeaderName="サンプル (カーネル)" HeaderCategory="サンプリング" HeaderValue="147" />
+    <Header HeaderName="サンプル (オーバーヘッド)" HeaderCategory="サンプリング" HeaderValue="0" />
+    <Header HeaderName="サンプル (アプリケーション)" HeaderCategory="サンプリング" HeaderValue="3" />
+    <Header HeaderName="サンプル (コールバック)" HeaderCategory="サンプリング" HeaderValue="3" />
+    <Header HeaderName="コールバック (スタック ウォーク)" HeaderCategory="サンプリング" HeaderValue="3" />
+    <Header HeaderName="サンプル (破損)" HeaderCategory="サンプリング" HeaderValue="0" />
+    <Header HeaderName="サイクル サンプリング" HeaderCategory="サンプリング" HeaderValue="True" />
+    <Header HeaderName="SysCall サンプリング" HeaderCategory="サンプリング" HeaderValue="False" />
+    <Header HeaderName="PageFault サンプリング" HeaderCategory="サンプリング" HeaderValue="False" />
+    <Header HeaderName="スレッド数" HeaderCategory="スレッド" HeaderValue="0" />
+    <Header HeaderName="スレッドの合計" HeaderCategory="スレッド" HeaderValue="8" />
+    <Header HeaderName="スレッド ハイウォーター" HeaderCategory="スレッド" HeaderValue="8" />
+    <Header HeaderName="最大スレッド数" HeaderCategory="スレッド" HeaderValue="512" />
+    <Header HeaderName="マイナー製品バージョン" HeaderCategory="バージョン情報" HeaderValue="0" />
+    <Header HeaderName="バージョン文字列" HeaderCategory="バージョン情報" HeaderValue="10.0.40219 x64" />
+    <Header HeaderName="ビルド番号" HeaderCategory="バージョン情報" HeaderValue="40219" />
+    <Header HeaderName="メジャー ファイル バージョン" HeaderCategory="バージョン情報" HeaderValue="43" />
+    <Header HeaderName="マイナー ファイル バージョン" HeaderCategory="バージョン情報" HeaderValue="1" />
+    <Header HeaderName="メジャー製品バージョン" HeaderCategory="バージョン情報" HeaderValue="10" />
+    <Header HeaderName="カウンター 0" HeaderCategory="パフォーマンス カウンター" HeaderValue="TimeStamp Counter" />
+    <Header HeaderName="最大プロセス" HeaderCategory="プロセス" HeaderValue="64" />
+    <Header HeaderName="プロセス数" HeaderCategory="プロセス" HeaderValue="0" />
+    <Header HeaderName="プロセス ハイウォーター" HeaderCategory="プロセス" HeaderValue="1" />
+    <Header HeaderName="プロセスの合計" HeaderCategory="プロセス" HeaderValue="1" />
+    <Header HeaderName="I/O バッファー" HeaderCategory="全般" HeaderValue="514" />
+    <Header HeaderName="作成日時" HeaderCategory="全般" HeaderValue="2013/04/13 11:17:41" />
+    <Header HeaderName="バッファー サイズ" HeaderCategory="全般" HeaderValue="65536" />
+  </HeaderSummary>
+</PerformanceReport>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render", "Render\Render.vcxproj", "{CDA1FD40-4463-4E35-8CB8-BACF015222EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mic", "mic\mic.vcxproj", "{10F03838-3E7B-4C28-9EBF-D824ABD825B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loadtest", "loadtest\loadtest.vcxproj", "{2908AB0C-174A-4A78-A9B0-271F55BBCB22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA1FD40-4463-4E35-8CB8-BACF015222EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDA1FD40-4463-4E35-8CB8-BACF015222EA}.Release|Win32.ActiveCfg = Release|Win32
+		{CDA1FD40-4463-4E35-8CB8-BACF015222EA}.Release|Win32.Build.0 = Release|Win32
+		{10F03838-3E7B-4C28-9EBF-D824ABD825B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10F03838-3E7B-4C28-9EBF-D824ABD825B9}.Debug|Win32.Build.0 = Debug|Win32
+		{10F03838-3E7B-4C28-9EBF-D824ABD825B9}.Release|Win32.ActiveCfg = Release|Win32
+		{10F03838-3E7B-4C28-9EBF-D824ABD825B9}.Release|Win32.Build.0 = Release|Win32
+		{2908AB0C-174A-4A78-A9B0-271F55BBCB22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2908AB0C-174A-4A78-A9B0-271F55BBCB22}.Debug|Win32.Build.0 = Debug|Win32
+		{2908AB0C-174A-4A78-A9B0-271F55BBCB22}.Release|Win32.ActiveCfg = Release|Win32
+		{2908AB0C-174A-4A78-A9B0-271F55BBCB22}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

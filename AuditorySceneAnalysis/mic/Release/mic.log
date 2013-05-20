@@ -1,0 +1,67 @@
+﻿2013/04/16 19:18:04 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\mic\mic.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\mic.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AudioCapture.cpp main.cpp
+         AudioCapture.cpp
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\SoundBuffer.hpp(78): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\SoundBuffer.hpp(72): クラス テンプレート のメンバー関数 'void aqua::SoundBuffer<T>::write(T *,int)' のコンパイル中
+                 with
+                 [
+                     T=float
+                 ]
+                 AudioCapture.cpp(26) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::SoundBuffer<T>' の参照を確認してください
+                 with
+                 [
+                     T=float
+                 ]
+         main.cpp
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FFTViewer.h(86): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FFTViewer.h(86): warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FFTViewer.h(87): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FFTViewer.h(87): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\WaveViewer.hpp(59): warning C4244: '引数' : 'int' から 'GLfloat' への変換です。データが失われる可能性があります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\MonoImage.hpp(125): warning C4800: 'unsigned char' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FrameRateChecker.h(42): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\FrameRateChecker.h(41): クラス テンプレート のメンバー関数 'const char *aqua::FrameRateChecker<interval>::getFrameRateString(void)' のコンパイル中
+                 with
+                 [
+                     interval=1000
+                 ]
+                 main.cpp(38) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::FrameRateChecker<interval>' の参照を確認してください
+                 with
+                 [
+                     interval=1000
+                 ]
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\AudioCapture.hpp(164): warning C4800: 'PaError' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+                 c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\AudioCapture.hpp(161): クラス テンプレート のメンバー関数 'bool aqua::AudioCapture<T>::isActive(void)' のコンパイル中
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(36) : コンパイルされたクラスの テンプレート のインスタンス化 'aqua::AudioCapture<T>' の参照を確認してください
+                 with
+                 [
+                     T=float
+                 ]
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Release\mic.exe" /INCREMENTAL:NO /NOLOGO sdl.lib sdlmain.lib opengl32.lib glu32.lib portaudio_x86.lib "libboost_system-vc100-mt-1_53.lib" "libboost_thread-vc100-mt-1_53.lib" "libboost_date_time-vc100-mt-1_53.lib" "libboost_chrono-vc100-mt-1_53.lib" "libfftw3f-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\mic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Release\mic.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Release\mic.lib" /MACHINE:X86 Release\AudioCapture.obj
+         Release\main.obj
+         コード生成しています。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(166): warning C4715: 'aqua::AudioCapture<float>::isActive' : 値を返さないコントロール パスがあります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(118): warning C4715: 'aqua::AudioCapture<float>::release' : 値を返さないコントロール パスがあります。
+     1>c:\users\takana\documents\visual studio 2010\projects\auditorysceneanalysis\mic\audiocapture.hpp(152): warning C4715: 'aqua::AudioCapture<float>::start' : 値を返さないコントロール パスがあります。
+         コード生成が終了しました。
+         mic.vcxproj -> C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Release\mic.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\Release\mic.exe;#1" /manifest Release\mic.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\mic.unsuccessfulbuild" を削除しています。
+         "Release\mic.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\takana\Documents\Visual Studio 2010\Projects\AuditorySceneAnalysis\mic\mic.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.07

@@ -1,0 +1,22 @@
+﻿2013/04/13 18:04:55 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\loadtest\loadtest.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\loadtest.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\Release\loadtest.exe" /INCREMENTAL:NO /NOLOGO sdl.lib sdlmain.lib opengl32.lib glu32.lib portaudio_x86.lib "libboost_system-vc100-mt-1_53.lib" "libboost_thread-vc100-mt-1_53.lib" "libboost_date_time-vc100-mt-1_53.lib" "libboost_chrono-vc100-mt-1_53.lib" "libfftw3f-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\loadtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\Release\loadtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\Release\loadtest.lib" /MACHINE:X86 Release\main.obj
+         コード生成しています。
+         コード生成が終了しました。
+         loadtest.vcxproj -> C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\Release\loadtest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\Release\loadtest.exe;#1" /manifest Release\loadtest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\loadtest.unsuccessfulbuild" を削除しています。
+         "Release\loadtest.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\takana\documents\visual studio 2010\Projects\AuditorySceneAnalysis\loadtest\loadtest.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:09.87

@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<PerformanceReport>
-  <ThreadSummary>
-    <Thread UPID="0" PID="2872" UTID="2" TID="4444" ThreadName="WinMainCRTStartup" ThreadBeginTime="14872946176" ThreadEndTime="17304328144" ThreadStartAddress="4284036464" LifeTime="2431381968" />
-  </ThreadSummary>
-</PerformanceReport>

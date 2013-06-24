@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1a2deca3-5a79-4efc-aaf9-158d78c32f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Module">
+      <UniqueIdentifier>{d1fa023f-f45d-477a-8015-f7bdf3146bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Analyzer">
+      <UniqueIdentifier>{270c14c5-5fbe-45fd-865b-0221b85fecaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Viewer">
+      <UniqueIdentifier>{3108b63f-c7a0-463d-a11a-3869e037b88e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCapture.cpp">
+      <Filter>Core\Module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WaveViewer.hpp">
+      <Filter>Core\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBuffer.hpp">
+      <Filter>Core\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCapture.hpp">
+      <Filter>Core\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTViewer.h">
+      <Filter>Core\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTAnalyzer.hpp">
+      <Filter>Core\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateChecker.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoImage.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IBinaryImage.hpp">
+      <Filter>Core\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="HoughLine.hpp">
+      <Filter>Core\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveRecoder.hpp">
+      <Filter>Core\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

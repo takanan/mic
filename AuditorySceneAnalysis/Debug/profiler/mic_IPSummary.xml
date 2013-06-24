@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<PerformanceReport>
-  <IPSummary>
-    <IP FunctionName="_wcsicmp" ExclSamples="1" ExclSamplesPercent="33.33" IP="0x000007FEFF7B33E5" SourceLineBegin="0" SourceCharacterBegin="0" SourceLineEnd="0" SourceCharacterEnd="0" FunctionAddress="0x000007FEFF7B33B8" LineNumber="0" SourceFile="" ModuleName="msvcrt.dll" ModulePath="C:\Windows\system32\msvcrt.dll" ProcessName="notepad.exe" PID="2872" />
-    <IP FunctionName="KiUserCallbackDispatcher" ExclSamples="1" ExclSamplesPercent="33.33" IP="0x00000000778B120B" SourceLineBegin="0" SourceCharacterBegin="0" SourceLineEnd="0" SourceCharacterEnd="0" FunctionAddress="0x00000000778B1206" LineNumber="0" SourceFile="" ModuleName="ntdll.dll" ModulePath="C:\Windows\SYSTEM32\ntdll.dll" ProcessName="notepad.exe" PID="2872" />
-    <IP FunctionName="RtlCompareUnicodeString" ExclSamples="1" ExclSamplesPercent="33.33" IP="0x00000000778982C4" SourceLineBegin="0" SourceCharacterBegin="0" SourceLineEnd="0" SourceCharacterEnd="0" FunctionAddress="0x00000000778982C0" LineNumber="0" SourceFile="" ModuleName="ntdll.dll" ModulePath="C:\Windows\SYSTEM32\ntdll.dll" ProcessName="notepad.exe" PID="2872" />
-  </IPSummary>
-</PerformanceReport>
